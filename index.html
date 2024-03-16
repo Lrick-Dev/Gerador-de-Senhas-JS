@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Gerador de senhas, Gerador password">
+
+    <title>Gnerate Password</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" class="stylesheet">
+
+</head>
+<body>
+
+    <div class="wrapper">
+        <p>Generate Password</p>
+        <input class="texto" type="text"  placeholder="Sua senha gerada foi..."   id="password-output" disable/>
+        <i class="uil uil-copy copy-icon" id="copy-icon" onclick="copyPassword()"></i>
+
+        <div class="range-box">
+            <input class="ranger" id="num" type="range" oninput="mostrarPorcentagem(this.value)"  min="4" max="25" value="12">
+            <span id="passwordLength" class="slider-number">12</span>
+
+            <br><br>
+
+            <div class="box">
+                <label>
+                    <input  type="checkbox" id="uppercase" checked/>
+                    <span>Maiúsculas</span>
+                </label>
+                <label>
+                    <input type="checkbox" id="lowercase"  checked/>
+                    <span>Minúsculas</span>
+                </label>
+                <label>
+                    <input  type="checkbox" id="special"  checked/>
+                    <span>Caracters Especiais</span>
+                </label>
+                <label>
+                    <input  type="checkbox" id="numbers" checked/>
+                    <span>Números</span>
+                </label>
+            </div>
+            <button  class="generate-button" id="generate-password-button" onclick="generatePassword()">Generate Password</button>
+        </div>
+
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
