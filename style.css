@@ -1,13 +1,7 @@
 
 @media only screen and (max-width: 600px) {
     
-    body {
-        font-size: 14px;
-    }
-
-    .wrapper {
-        max-width: 100%; 
-    }
+  
 }
 
 
@@ -20,16 +14,14 @@
     
 }
     
-    body {
-        font-size: 14px; 
-    }
+
 }
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'snell roundhand', cursive;
+    font-family: 'arial', sans-serife;
 }
 
 body{
@@ -40,6 +32,7 @@ body{
     background: rgb(11, 101, 104);
 }
 .wrapper {
+    max-width: 100%;
     position: relative;
     max-width: 390px;
     height: 500px;
