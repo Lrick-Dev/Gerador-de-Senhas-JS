@@ -1,13 +1,24 @@
 
+@media only screen and (max-width: 600px) {
+    
+   
+}
 
 
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    
+}
 
+
+@media only screen and (min-width: 901px) {
+    
+}
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'arial', sans-serife;
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
@@ -18,7 +29,6 @@ body{
     background: rgb(11, 101, 104);
 }
 .wrapper {
-   
     position: relative;
     max-width: 390px;
     height: 500px;
@@ -52,7 +62,6 @@ p{
     color: black;
 }
 .texto {
-    font-family: 'snell roundhand', cursive;
     width: 90%;
     border-radius: 8px;
     padding: 0 45px 0 15px;
@@ -114,7 +123,7 @@ p{
 
 
 label span{
-    font-family: 'snell roundhand', cursive;
+    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
     margin-bottom: 2px ;
@@ -132,7 +141,7 @@ label span{
 
 
 .range-box .generate-button{
-    font-family: 'snell roundhand', cursive;
+    font-family: 'Roboto', sans-serif;
     font-weight: normal;
     position: center;
     bottom: 10%;
@@ -140,7 +149,7 @@ label span{
     width: 99%;
     color: rgb(0, 0, 0);
     padding: 8px ;
-    margin-top: 30px;
+    margin-top: 40px;
     background-color: rgb(32, 196, 218);
     border: none;
     border-radius: 8px;
